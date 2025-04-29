@@ -1,0 +1,18 @@
+# input_dicom_path: /data/vr_heart/datasets/test # path to the input dicoms (this folder already exists)
+# dataset_root_dir: /data/vr_heart/datasets/test_processed_modal # path to which the processed dicoms will be saved and where the dataset.json will be made 
+# output_dir: /data/vr_heart/datasets/test_processed_modal/outputs # path to the model outputs
+
+# dataset_json_path: "/data/vr_heart/datasets/test_processed_modal/data.json"
+
+# # change the model paths to 
+# bp_model_checkpoint_path: "/data/vr_heart/models/bloodpool_models/45wq9ozw.ckpt"
+# segmentation_model_checkpoint_path: "/data/vr_heart/models/segmentation_models/mqt8dcfs.ckpt"
+
+# device: 0 # dont use a list here
+input_dicom_path: /input
+dataset_root_dir: /output
+output_dir: /output/results
+dataset_json_path: /output/data.json
+bp_model_checkpoint_path: /data/vr_heart/models/bloodpool_models/45wq9ozw.ckpt
+segmentation_model_checkpoint_path: /data/vr_heart/models/segmentation_models/mqt8dcfs.ckpt
+device: 0

@@ -1,0 +1,23 @@
+monai
+matplotlib
+tqdm
+nibabel
+scikit-image
+itkwidgets
+tensorboard
+kaggle
+scikit-learn
+pydicom
+pynrrd
+numpy
+colorlog
+hydra-core
+lightning
+wandb
+simpleitk
+streamlit
+
+# Dev dependencies
+black[jupyter]
+jupyter
+ipykernel
