@@ -20,8 +20,8 @@ from monai.data import DataLoader, decollate_batch
 from monai.inferers import sliding_window_inference
 from monai.networks.nets import VNet
 
-from utils.dicom_dataset import DicomDataset
-from utils.transforms import ExtractHeartRegiond, convert_multi_channel_to_single
+from inference_pipeline.utils.dicom_dataset import DicomDataset
+from inference_pipeline.utils.transforms import ExtractHeartRegiond, convert_multi_channel_to_single
 
 
 def run_segmentation_inference(cfg):

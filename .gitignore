@@ -1,4 +1,4 @@
-models/
+vr-heart-model/
 .venv/
 **/.DS_Store
 **/__pycache__/
